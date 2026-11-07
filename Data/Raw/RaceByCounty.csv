@@ -1,0 +1,136 @@
+County,FIPS,Percent Black,Percent Asian,Percent White,Percent Hispanic
+United States,0,12.2,6.1,60.2,11.0
+Virginia,51000,18.6,7.0,61.0,19.3
+Highland County,51091,0.0,0.0,15.2,0.0
+Craig County,51045,0.1,0.0,19.6,0.2
+Carroll County,51035,0.2,0.1,33.0,0.7
+Dickenson County,51051,1.0,0.1,35.6,0.7
+Russell County,51167,1.1,0.1,36.2,1.1
+Scott County,51169,1.3,0.1,36.7,1.1
+Washington County,51191,1.8,0.1,38.1,1.2
+Poquoson City,51735,1.9,0.1,39.8,1.4
+Buena Vista City,51530,2.0,0.2,40.7,1.4
+Page County,51139,2.1,0.2,41.0,1.5
+Smyth County,51173,2.1,0.2,41.1,1.5
+Norton City,51720,2.2,0.2,41.3,1.6
+Wythe County,51197,2.3,0.2,42.3,1.6
+Rockingham County,51165,2.4,0.2,42.8,1.8
+Botetourt County,51023,2.6,0.2,43.2,1.8
+Floyd County,51063,2.6,0.3,43.2,1.9
+Giles County,51071,2.8,0.3,43.4,2.0
+Shenandoah County,51171,3.0,0.3,44.9,2.1
+Rockbridge County,51163,3.1,0.3,46.5,2.1
+Tazewell County,51185,3.2,0.3,49.1,2.2
+Bath County,51017,3.4,0.3,50.5,2.3
+Rappahannock County,51157,3.6,0.3,51.0,2.4
+Falls Church City,51610,3.8,0.4,52.7,2.4
+Buchanan County,51027,3.9,0.4,52.8,2.5
+Montgomery County,51121,3.9,0.4,53.9,2.5
+Bland County,51021,4.2,0.4,54.2,2.6
+Augusta County,51015,4.3,0.4,54.2,2.6
+Lee County,51105,4.3,0.4,54.8,2.6
+Frederick County,51069,4.5,0.4,55.1,2.6
+Pulaski County,51155,4.7,0.4,55.4,2.7
+Galax City,51640,4.9,0.4,56.7,2.8
+Wise County,51195,4.9,0.5,56.8,2.8
+Patrick County,51141,5.0,0.5,56.9,2.9
+Alleghany County and Clifton Forge City,51005,5.2,0.5,57.5,2.9
+Warren County,51187,5.2,0.5,57.9,2.9
+Grayson County,51077,5.5,0.5,59.3,2.9
+Bristol City,51520,5.8,0.5,59.9,3.0
+Lexington City,51678,5.8,0.5,60.4,3.0
+Bedford City and County,51917,6.3,0.5,60.8,3.1
+Clarke County,51043,6.3,0.6,61.3,3.1
+Fairfax City,51600,6.3,0.6,61.4,3.1
+Fauquier County,51061,6.3,0.6,61.4,3.2
+Roanoke County,51161,6.5,0.6,61.5,3.2
+Franklin County,51067,6.9,0.6,61.6,3.2
+Powhatan County,51145,7.3,0.6,61.6,3.3
+Greene County,51079,7.4,0.6,62.2,3.3
+Harrisonburg City,51660,7.7,0.6,62.3,3.5
+Loudoun County,51107,7.7,0.6,62.8,3.5
+Winchester City,51840,7.9,0.7,63.4,3.5
+Gloucester County,51073,8.1,0.7,63.9,3.6
+Hanover County,51085,8.4,0.7,64.1,3.7
+Salem City,51775,8.7,0.8,64.3,3.8
+Madison County,51113,8.9,0.8,66.2,3.8
+Albemarle County,51003,9.2,0.8,66.5,3.9
+Radford City,51750,9.4,0.8,66.9,3.9
+Arlington County,51013,9.5,0.9,67.3,4.0
+Fairfax County,51059,9.6,0.9,68.1,4.0
+Mathews County,51115,9.7,0.9,68.2,4.1
+Orange County,51137,10.1,0.9,68.4,4.1
+Staunton City,51790,10.9,1.0,68.5,4.1
+Nelson County,51125,11.0,1.0,68.9,4.1
+Louisa County,51109,11.6,1.0,69.2,4.2
+Fluvanna County,51065,11.8,1.0,69.3,4.2
+Waynesboro City,51820,11.9,1.0,70.0,4.3
+Manassas City,51683,12.0,1.1,70.2,4.4
+James City County,51095,12.4,1.1,72.3,4.4
+Covington City,51580,12.7,1.1,73.0,4.6
+Culpeper County,51047,12.9,1.1,74.0,4.6
+York County,51199,13.1,1.1,74.1,4.6
+New Kent County,51127,13.3,1.1,74.2,4.8
+Goochland County,51075,13.7,1.2,74.8,4.8
+Manassas Park City,51685,13.7,1.2,75.9,4.8
+Campbell County,51031,14.2,1.2,76.4,4.8
+Williamsburg City,51830,14.4,1.2,76.8,4.9
+King William County,51101,15.0,1.3,77.2,4.9
+King George County,51099,15.1,1.3,77.3,5.1
+Charlottesville City,51540,15.6,1.3,77.3,5.2
+Appomattox County,51011,15.9,1.4,77.6,5.4
+Middlesex County,51119,16.1,1.4,78.4,5.6
+Spotsylvania County,51177,16.9,1.4,78.9,6.1
+Amherst County,51009,17.0,1.4,79.0,6.3
+Virginia Beach City,51810,18.8,1.5,79.3,6.4
+Northumberland County,51133,19.1,1.5,79.6,6.5
+Colonial Heights City,51570,19.3,1.6,79.7,6.9
+Amelia County,51007,19.5,1.7,79.8,6.9
+Fredericksburg City,51630,19.9,1.8,80.4,6.9
+Stafford County,51179,19.9,1.8,81.3,6.9
+Prince William County,51153,20.0,1.9,81.5,7.0
+Pittsylvania County,51143,20.3,1.9,81.8,7.0
+Alexandria City,51510,21.3,1.9,82.4,7.2
+Isle of Wight County,51093,21.4,2.0,82.5,7.4
+King and Queen County,51097,21.9,2.1,82.5,7.5
+Henry County,51089,22.3,2.2,82.7,7.5
+Chesterfield County,51041,23.4,2.2,83.0,7.5
+Westmoreland County,51193,23.5,2.2,83.1,7.7
+Caroline County,51033,23.8,2.2,83.3,7.7
+Charlotte County,51037,24.9,2.3,83.8,7.8
+Lancaster County,51103,25.6,2.4,84.4,7.8
+Richmond County,51159,26.8,2.4,84.7,7.9
+Accomack County,51001,27.2,2.4,85.0,8.3
+Lynchburg City,51680,27.2,2.5,85.1,8.3
+Roanoke City,51770,27.9,2.5,85.4,8.6
+Chesapeake City,51550,29.1,2.6,85.6,8.9
+Southampton County,51175,29.2,2.8,85.8,9.0
+Cumberland County,51049,29.4,2.9,85.9,9.1
+Henrico County,51087,29.4,3.2,86.4,9.1
+Dinwiddie County,51053,29.8,3.4,87.7,9.3
+Prince Edward County,51147,29.8,3.5,89.3,9.3
+Northampton County,51131,30.0,3.6,89.5,9.7
+Buckingham County,51029,30.6,3.7,90.0,10.1
+Prince George County,51149,31.4,3.7,90.1,10.4
+Mecklenburg County,51117,32.4,3.8,90.1,10.7
+Lunenburg County,51111,32.5,3.8,90.2,10.8
+Halifax County with South Boston City,51083,34.7,3.9,90.7,10.8
+Nottoway County,51135,36.5,4.0,91.6,10.9
+Essex County,51057,37.1,4.0,91.9,11.9
+Surry County,51181,39.0,4.4,92.0,12.4
+Norfolk City,51710,39.6,5.6,92.2,12.5
+Charles City County,51036,40.8,5.8,92.6,12.6
+Richmond City,51760,41.0,6.2,92.7,13.4
+Newport News City,51700,41.2,6.4,93.1,14.1
+Suffolk City,51800,42.0,6.7,93.1,14.3
+Hopewell City,51670,43.6,6.8,93.1,15.6
+Martinsville City,51690,44.0,7.1,93.8,15.9
+Hampton City,51650,49.3,7.4,94.0,16.6
+Portsmouth City,51740,50.6,9.1,94.0,17.6
+Danville City,51590,51.0,9.5,94.5,18.3
+Brunswick County,51025,51.8,10.1,94.6,18.9
+Sussex County,51183,54.1,10.4,94.9,21.0
+Franklin City,51620,55.8,10.6,95.8,23.6
+Greensville County,51081,56.3,18.4,95.8,26.1
+Emporia City,51595,64.3,20.0,96.8,43.9
+Petersburg City,51730,76.5,21.9,97.7,46.8
