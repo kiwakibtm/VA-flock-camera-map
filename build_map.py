@@ -155,6 +155,8 @@ def build_map() -> folium.Map:
     if tracts is not None:
         add_tract_layer(m, tracts, "median_income", "Median household income", "YlGnBu", True)
         add_tract_layer(m, tracts, "pct_black", "% Black residents", "Purples", False)
+        add_tract_layer(m, tracts, "pct_white", "% White residents", "Greens", False)
+        add_tract_layer(m, tracts, "pct_hispanic", "% Hispanic residents", "Oranges", False)
     folium.GeoJson(
         counties,
         name="Study area outlines",
