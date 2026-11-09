@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 ACS_YEAR = 2024
-OUTPUT_FILE = Path("data/processed/acs_tracts.csv")
+OUTPUT_FILE = Path("Data/processed/acs_tracts.csv")
 
 AREAS = {
     "710": "Norfolk city",
