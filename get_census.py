@@ -12,7 +12,6 @@ AREAS = {
     "036": "Charles City County",
     "760": "Richmond city",
     "087": "Henrico County",
-    "540": "Charlottesville city",
 }
 
 VARS = {
