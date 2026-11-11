@@ -11,6 +11,7 @@ COUNTIES_FILE = Path("Data/Raw/cb_2024_us_county_500k.shp")
 LPR_FILE = Path("Data/Raw/VA_LPR_DATA.csv")
 TRACTS_FILE = Path("Data/processed/tracts.geojson")
 OUT_MAP = Path("output/alpr_heatmap.html")
+TRAFFIC_FILE = Path("Data/Raw/VA_TRAFFIC.csv")
 
 AREAS = {
     "710": ("Norfolk city", 1, "Norfolk (117)"),
@@ -42,8 +43,8 @@ def load_cameras(counties: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
 COORD_RE = re.compile(r"^\s*(-?\d+\.\d+)\s+(-?\d+\.\d+)\s*$")
  
  
-def load_lpr_stops() -> pd.DataFrame:
-    stops = pd.read_csv(LPR_FILE, dtype=str)
+def load_stops(path) -> pd.DataFrame:
+    stops = pd.read_csv(path, dtype=str)
     juris_to_fips = {v[2]: k for k, v in AREAS.items()}
     stops = stops[stops["Jurisdiction"].isin(juris_to_fips)].copy()
     stops["COUNTYFP"] = stops["Jurisdiction"].map(juris_to_fips)
@@ -119,6 +120,8 @@ def add_legend_and_stats(m, stats):
            background:#e74c3c;border:1px solid #333"></span> Camera-hit stop (2026)</div>
       <div style="margin-top:6px">Camera density</div>
       <div style="height:10px;border-radius:3px;background:linear-gradient(90deg,#fde0c5,#f08a4b,#c0392b)"></div>
+      <div style="margin-top:6px">Traffic crime density</div>
+      <div style="height:10px;border-radius:3px;background:linear-gradient(90deg,#27C8F5,#27B0F5,#2768F5,#2A27F5)"></div>
       <div style="margin-top:6px">Median household income</div>
       <div style="height:10px;border-radius:3px;background:linear-gradient(90deg,#ffffcc,#41b6c4,#253494)"></div>
       <div style="display:flex;justify-content:space-between;color:#aaa;font-size:11px"><span>lower</span><span>higher</span></div>
@@ -138,7 +141,8 @@ def add_legend_and_stats(m, stats):
 def build_map() -> folium.Map:
     counties = load_counties()
     cams = load_cameras(counties)
-    stops = load_lpr_stops()
+    stops = load_stops(LPR_FILE)
+    traffic = load_stops(TRAFFIC_FILE)
     tracts = None
     if TRACTS_FILE.exists():
         tracts = gpd.read_file(TRACTS_FILE)
@@ -186,6 +190,16 @@ def build_map() -> folium.Map:
             radius=6, color="#fff", weight=1.5, fill=True, fill_color="#e74c3c", fill_opacity=0.95,
             tooltip=f"{r['Stop Date']}<br>{r['Race']}<br>{r['Action Taken']}",
         ).add_to(stop_layer)
+
+    trafficed = traffic.dropna(subset=["lat", "lon"])
+    HeatMap(
+        trafficed[["lat", "lon"]].values.tolist(),
+        name="Traffic crimes (heat)",
+        radius=22,
+        blur=18,
+        min_opacity=0.25,
+        gradient={0.2: "#27C8F5", 0.5: "#27B0F5", 0.8: "#2768F5", 1.0: "#2A27F5"}
+    ).add_to(m)
  
     folium.LayerControl(collapsed=False).add_to(m)
  
