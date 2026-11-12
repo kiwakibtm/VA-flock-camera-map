@@ -121,7 +121,7 @@ def add_legend_and_stats(m, stats):
       <div style="margin-top:6px">Camera density</div>
       <div style="height:10px;border-radius:3px;background:linear-gradient(90deg,#fde0c5,#f08a4b,#c0392b)"></div>
       <div style="margin-top:6px">Traffic crime density</div>
-      <div style="height:10px;border-radius:3px;background:linear-gradient(90deg,#27C8F5,#27B0F5,#2768F5,#2A27F5)"></div>
+      <div style="height:10px;border-radius:3px;background:linear-gradient(90deg,#FCCAD5,#E65758,#C92C50,#771D32)"></div>
       <div style="margin-top:6px">Median household income</div>
       <div style="height:10px;border-radius:3px;background:linear-gradient(90deg,#ffffcc,#41b6c4,#253494)"></div>
       <div style="display:flex;justify-content:space-between;color:#aaa;font-size:11px"><span>lower</span><span>higher</span></div>
@@ -198,7 +198,7 @@ def build_map() -> folium.Map:
         radius=22,
         blur=18,
         min_opacity=0.25,
-        gradient={0.2: "#27C8F5", 0.5: "#27B0F5", 0.8: "#2768F5", 1.0: "#2A27F5"}
+        gradient={0.2: "#FCCAD5", 0.5: "#E65758", 0.8: "#C92C50", 1.0: "#771D32"}
     ).add_to(m)
  
     folium.LayerControl(collapsed=False).add_to(m)
